@@ -8,7 +8,7 @@ private:
 	NODO* nextNodo;
 
 public:
-	int GetValue();
+	int GetValue(int x);
 	NODO* GetNext();
 	
 	void SetValue(int _value);
